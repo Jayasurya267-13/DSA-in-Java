@@ -39,6 +39,7 @@ public class Product_ID_Insertion_in_Inventory {
             head=insert(head,data);
         }
         display(head);
+        sc.close();
     }
 
    
