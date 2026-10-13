@@ -97,3 +97,17 @@ Sample Output 1
 50 80 140
 140 80 50
 
+Day 4
+
+The program must accept N integers as input. If the integer M (in the N integers) is a single-digit integer, then the program must pop an integer from the stack.
+Otherwise, the program must push the integer M to the stack.
+Finally, the program must print the integers in the stack in Last In, First Out (LIFO) order.
+
+Fill in the missing lines of code by using the given methods push() and pop() so that the program runs successfully.
+
+Sample Input 
+6
+11 13 15 2 45 168
+
+Sample Output 1
+168 45 13 11
