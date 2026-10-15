@@ -23,10 +23,10 @@ Initially the linked list is empty. The first product ID 101 is inserted at the 
 The third product ID 103 is inserted at the end, and the list becomes 101 102 103. The fourth product ID 104 is inserted at the end, and the list becomes 101 102 103 104. 
 The fifth product ID 105 is inserted at the, and the list becomes 101 102 103 104 105.
 
-Sample Input 1
+Sample Input 
 3
 101 102 103
-Sample Output 1
+Sample Output 
 
 101 102 103
 
@@ -59,11 +59,11 @@ Initially the linked list is empty. The first task ID 201 is inserted at the beg
 The second task ID 202 is inserted at the beginning, and the list becomes 202 201. The third task ID 203 is inserted at the beginning, and the list becomes 203 202 201. 
 The fourth task ID is inserted at the beginning, and the list becomes 204 203 202 201. The fifth task ID is inserted at the beginning, and the list becomes 205 204 203 202 201.
 
-Sample Input 1
+Sample Input 
 
 3
 10 20 30
-Sample Output 1
+Sample Output 
 30 20 10
 
 Day 3
@@ -93,7 +93,7 @@ Sample Input
 3
 1 2 4
 
-Sample Output 1
+Sample Output
 50 80 140
 140 80 50
 
@@ -109,5 +109,19 @@ Sample Input
 6
 11 13 15 2 45 168
 
-Sample Output 1
+Sample Output 
 168 45 13 11
+
+Day 5
+
+The program must accept N integers as input. If the integer M (in the N integers) is not a multiple of 3, then the program must push the integer M onto the stack.
+Otherwise, the program must pop three integers from the stack.
+Finally, the program must print the integers remaining in the stack in Last In, First Out (LIFO) order.
+Fill in the missing lines of code using the given methods push() and pop() so that the program runs successfully.
+
+Sample Input 
+6
+7 8 2 4 9 2
+
+Sample Output 1
+2 7
